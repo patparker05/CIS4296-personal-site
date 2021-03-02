@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script defer src="fontawesome/js/all.js"></script>
-    <title>John Doe</title>
+    <title>Patrick Parker</title>
     <style>
         html,
         body {
             height: 100%;
-            font-family: 'Merriweather Sans', sans-serif;
+            font-family: 'American Typewriter', serif;
             scroll-behavior: smooth;
         }
 
@@ -82,8 +82,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#landing">John Doe<span class="sr-only">(current)</span></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+        <a class="navbar-brand" href="#landing">Patrick Parker<span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -98,6 +98,9 @@
                     <a class="nav-link" href="#courses">Courses</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
@@ -105,7 +108,7 @@
     </nav>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="landing">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm John!</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm Patrick!</h4>
         </div>
         <div class="row mx-auto">
             <h5 class="display-5 mx-auto faded text-center">I'm an Information Science & Technology Student at Temple
@@ -135,13 +138,16 @@
         </div>
         <div class="row my-4">
             <div class="col">
-                <a href="#projects"><button type="button" class="btn btn-outline">Projects</button></a>
+                <a href="#projects"><button type="button" class="btn btn-outline bg-info">Projects</button></a>
             </div>
             <div class="col">
-                <a href="#courses"><button type="button" class="btn btn-outline">Courses</button></a>
+                <a href="#courses"><button type="button" class="btn btn-outline bg-info">Courses</button></a>
             </div>
             <div class="col">
-                <a href="#contact"><button type="button" class="btn btn-outline">Contact</button></a>
+                <a href="#experience"><button type="button" class="btn btn-outline bg-info">Experience</button></a>
+            </div>
+            <div class="col">
+                <a href="#contact"><button type="button" class="btn btn-outline bg-info">Contact</button></a>
             </div>
         </div>
         <div class="row mt-5 next">
@@ -223,9 +229,58 @@
             </div>
         </div>
         <div class="row mt-5 next">
+            <a href="#experience" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                    title="Experience"></i></a> </div>
+    </div>
+    
+    <!-- new page -->
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="experience">
+        <div class="row mx-auto">
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Experience</h4>
+        </div>
+        <div class="row w-100">
+            <h5>Field Service Technician</h5>
+        </div>
+        <div class="row w-100">
+            <h6>PCS- Moorestown, NJ</h6>
+        </div>
+        <div class="row w-25"><a href="https://www.helpmepcs.com/"><img src="images/pcs.jpg" class="lang" data-toggle="tooltip"
+                data-placement="top" title="PCS"></a></div>
+        <div class="row w-100 mb-4">
+            <ul>
+                <li>Assisted in transitioning 200 Advocare, LLC offices to a new network while following HIPAA regulations</li>
+                <li>Installed new routers, switches and firewalls in all doctors’ offices</li>
+                <li>Worked closely with doctors and nurses to make sure all medical equipment and office
+                    computers were operational</li>
+                <li>Troubleshooting network outages and problems with implementing eClinicalWorks
+                    software</li>
+            </ul>
+        </div>
+        <div class="row w-100">
+            <h5>IT Office Assistant</h5>
+        </div>
+        <div class="row w-100">
+            <h6>IT&T Business Travel Solutions- Malvern, PA</h6>
+        </div>
+        <div class="row w-25"><a href="https://itandt.com/"><img src="images/ittbts.jpg" class="lang" data-toggle="tooltip"
+                data-placement="top" title="IT&T"></a></div>
+        <div class="row w-100 mb-4">
+            <ul>
+                <li>Assisted with implementing new CRS, Sabre Red Workspace for all employees</li>
+                <li>Acted as a liaison to IT personnel at Sabre as well as our employees</li>
+                <li>Seat assignment- responsible for upgrading passenger seating according to client
+preferences using Sabre</li>
+                <li>Prepared and sent invoices to corporations daily</li>
+                <li>Assisted with screening resumes of future employees</li>
+                <li>Supported customers with travel related requests for hotels and car rentals</li>
+            </ul>
+        </div>
+        <div class="row mt-5 next">
             <a href="#contact" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
                     title="Contact"></i></a> </div>
     </div>
+    
+    
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="contact">
         <div class="row mx-auto">
             <h4 class="display-4 font-weight-bold mx-auto text-center">Feel Like Reaching Out?</h4>
@@ -234,11 +289,11 @@
             <h5 class="display-5 mx-auto faded text-center">I don't bite.</h5>
         </div>
         <div class="row my-4 contacticon">
-            <a href="mailto:johndoe@gmail.com" class="col mx-3"><i class="fas fa-envelope-square"
+            <a href="mailto:patrick.parker05@gmail.com" class="col mx-3"><i class="fas fa-envelope-square"
                     data-toggle="tooltip" data-placement="top" title="Email"></i></a>
-            <a href="https://www.linkedin.com/in/johndoe/" class="col mx-3"><i class="fab fa-linkedin"
+            <a href="https://www.linkedin.com/in/patrick-parker-78a492206?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bzx0opgxcT1qgFuHoOatctg%3D%3D" class="col mx-3"><i class="fab fa-linkedin"
                     data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a>
-            <a href="https://github.com/johndoe" class="col mx-3"><i class="fab fa-github-square"
+            <a href="https://github.com/patparker05" class="col mx-3"><i class="fab fa-github-square"
                     data-toggle="tooltip" data-placement="top" title="Github"></i></a>
 
         </div>
